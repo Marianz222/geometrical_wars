@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c09403635fd121a42a8cc0658d993e53, type: 3}
+  m_Name: PlantillaEsfera
+  m_EditorClassIdentifier: 
+  vida: 200
+  velocidadMovimiento: 4
+  velocidadRotacion: 10
+  poderOleada: 1
+  "factorDa\xF1o": 0.5
+  factorCadenciaDisparo: 1
+  armasDisponibles:
+  - {fileID: 9079879253171962005, guid: 21ed25d0e02c878498af1f92398dfece, type: 3}
