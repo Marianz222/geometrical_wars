@@ -1,15 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 namespace GeometricalWars.Enumeraciones
 {
 
-    public enum Arma
+    public enum ArmaID
     {
         RIFLE_TRIPLE_BARRIL,
         RIFLE_PULSO,
-        PROYECTOR_IGNEO
+        PROYECTOR_IGNEO,
+        RIFLE_REGLAMENTARIO
     }
     
     public enum TeclasJugador
@@ -29,6 +26,7 @@ namespace GeometricalWars.Enumeraciones
 
     public enum TipoDaño
     {
+        GENERICO,
         CINETICO,
         CONTACTO,
         IGNEO,
@@ -36,7 +34,7 @@ namespace GeometricalWars.Enumeraciones
         EXPLOSIVO
     }
 
-    public enum TipoProyectil
+    public enum FisicasDisparo
     {
         HITSCAN,
         DESPLAZAMIENTO,

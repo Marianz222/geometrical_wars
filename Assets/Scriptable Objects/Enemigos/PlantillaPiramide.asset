@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09403635fd121a42a8cc0658d993e53, type: 3}
   m_Name: PlantillaPiramide
   m_EditorClassIdentifier: 
-  vida: 0
-  velocidadMovimiento: 0
-  velocidadRotacion: 0
-  "multiplicadorDa\xF1o": 1
-  multiplicadorCadenciaDisparo: 1
-  arma: {fileID: 0}
+  vida: 150
+  velocidadMovimiento: 5
+  velocidadRotacion: 16
+  poderOleada: 1
+  "factorDa\xF1o": 0.5
+  factorCadenciaDisparo: 0.85
+  armasDisponibles:
+  - {fileID: 9079879253171962005, guid: 21ed25d0e02c878498af1f92398dfece, type: 3}
+  - {fileID: 2461421628378965477, guid: 11e96f395b3e008488656d90ce00e6ef, type: 3}

@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class GestorJuego : MonoBehaviour
 {
+    [SerializeField] private GameObject textoFlotante;
     public static GestorJuego Instancia { get; private set; }
 
     void Awake()
@@ -54,6 +55,17 @@ public class GestorJuego : MonoBehaviour
         Debug.Log("[INFO/DEBUG]: Cerrando el juego");
 
         Application.Quit();
+
+    }
+
+    public void GenerarDañoFlotante(string cadena, Color color, Vector3 position)
+    {
+        GameObject texto = Instantiate(textoFlotante);
+        TextoFlotante controlador_texto = texto.GetComponent<TextoFlotante>();
+
+        controlador_texto.ModificarTexto(cadena);
+        controlador_texto.ModificarColor(color);
+        controlador_texto.transform.position = position;
 
     }
 

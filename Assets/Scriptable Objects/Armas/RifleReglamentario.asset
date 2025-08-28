@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a11decd500fc4541bcb2a7e57d2fb4d, type: 3}
+  m_Name: RifleReglamentario
+  m_EditorClassIdentifier: 
+  identificadorArma: 3
+  tipoFisicas: 1
+  "da\xF1o": 20
+  rango_maximo: 100
+  "fuenteDa\xF1o": 01000000
+  cadenciaDisparo: 0.8
+  consumeMunicion: 1
+  dispersionBase: {x: 4, y: 4}
+  recoil: {x: 0, y: 0, z: 1}
+  puedeSobrecalentarse: 0
+  calorGenerado: 0
+  proyectil: {fileID: 6743383717758988722, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+  esRafaga: 1
+  intervaloRafaga: 0.1
+  conteoRafaga: 3

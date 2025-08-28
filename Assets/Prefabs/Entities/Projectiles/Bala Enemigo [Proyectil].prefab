@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: velocidad
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1410861597727054047, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: framesAplicados
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 2333194669106508533, guid: 442c347e83b56c542945da51fba2285f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -60,6 +64,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bala Enemigo [Proyectil]
       objectReference: {fileID: 0}
+    - target: {fileID: 7261929544273984736, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261929544273984736, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f3fe30cc735a734c935c3749b30c4a9, type: 2}
+    - target: {fileID: 7261929544273984736, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     - target: {fileID: 7273625781481460177, guid: 442c347e83b56c542945da51fba2285f, type: 3}
       propertyPath: m_Time
       value: 0.75
@@ -95,6 +111,50 @@ PrefabInstance:
     - target: {fileID: 7273625781481460177, guid: 442c347e83b56c542945da51fba2285f, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
       value: 0.13341174
+      objectReference: {fileID: 0}
+    - target: {fileID: 7565909686965180512, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f3fe30cc735a734c935c3749b30c4a9, type: 2}
+    - target: {fileID: 8035295018039820361, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f3fe30cc735a734c935c3749b30c4a9, type: 2}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.85589445
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.031372547
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxGradient.key0.b
+      value: 0.99999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxGradient.key0.r
+      value: 0.031372547
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxGradient.key1.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxGradient.key1.g
+      value: 0.42460012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747415903329979125, guid: 442c347e83b56c542945da51fba2285f, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxGradient.key1.r
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

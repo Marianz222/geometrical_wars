@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a11decd500fc4541bcb2a7e57d2fb4d, type: 3}
   m_Name: RifleTripleBarril
   m_EditorClassIdentifier: 
-  identificador_arma: 0
+  identificadorArma: 0
+  tipoFisicas: 1
   "da\xF1o": 30
+  "fuenteDa\xF1o": 01000000
   cadenciaDisparo: 2
   consumeMunicion: 1
   dispersionBase: {x: 40, y: 40}
